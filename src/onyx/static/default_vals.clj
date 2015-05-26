@@ -1,6 +1,6 @@
 (ns onyx.static.default-vals)
 
-(def default-pending-timeout 60000)
+(def default-pending-timeout 90000)
 
 (def defaults
   {; input task defaults
