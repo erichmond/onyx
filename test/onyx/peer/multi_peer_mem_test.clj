@@ -30,7 +30,6 @@
     :onyx/ident :core.async/read-from-chan
     :onyx/type :input
     :onyx/medium :core.async
-    :onyx/pending-timeout 100000
     :onyx/batch-size batch-size
     :onyx/max-peers 1
     :onyx/doc "Reads segments from a core.async channel"}
@@ -81,7 +80,7 @@
 
 (>!! in-chan :done)
 
-(def v-peers (onyx.api/start-peers 8 peer-group))
+(def v-peers (onyx.api/start-peers 6 peer-group))
 
 (onyx.api/submit-job
  peer-config
