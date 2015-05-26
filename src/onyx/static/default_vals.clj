@@ -29,7 +29,7 @@
    :onyx.messaging.netty/pending-buffer-size 10000
    :onyx.messaging/inbound-buffer-size 200000
    :onyx.messaging/completion-buffer-size 50000
-   :onyx.messaging/release-ch-buffer-size 10000
+   :onyx.messaging/release-ch-buffer-size 100000
    :onyx.messaging/retry-ch-buffer-size 10000
    :onyx.messaging/max-downstream-links 10
    :onyx.messaging/max-acker-links 5
