@@ -144,6 +144,7 @@
    :batch-after
    :task-after])
 
+
 ;; shutdown-peer ensure peers are fully shutdown so that 
 ;; :task-after will have been set
 (doseq [v-peer v-peers]
